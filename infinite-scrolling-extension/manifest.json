@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "TwitterSearch Scraping",
+  "description": "Scraps Twitter webpage",
+  "version": "1.0",
+
+  "permissions": [
+  	"tabs",
+    "http://*/*", 
+    "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_title": "TwitterSearch Scraping",
+    "default_icon": "icon.png", // This icon was downloaded from http://p.yusukekamiyamane.com/
+    "default_popup": "popup.html"
+  }
+}
